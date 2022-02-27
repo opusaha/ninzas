@@ -1,0 +1,30 @@
+.logo img{
+  height: 50px;
+}
+.nav-clr{
+  background-color: black;
+}
+.navbar-toggler{
+  background-color: whitesmoke;
+}
+.top-background-image{
+  background-image: url("../images/1.jpg");
+  background-size: 100% 100%;
+  background-repeat: none;
+  background-attachment:inherit;
+}
+.my-btn{
+  border:none;
+  background-image: linear-gradient(45deg, #5fc4ff 0%, #4613ff 100%);
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+}
+.my-btn:hover{
+  border:none;
+  background-image: linear-gradient(to bottom, #5fc4ff 0%, #4613ff 100%);
+  border-radius: 50px;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
