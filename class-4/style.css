@@ -1,0 +1,20 @@
+.my-table{
+  border: 1px solid brown;
+  text-align: center;
+  width: 60vh;
+  height: 25vh;
+  border-collapse: collapse;
+}
+.table-row{
+  width: 100%;
+}
+.table-head{
+  border: 1px solid green;
+  background: rgb(245, 143, 106);
+  color: rgb(1, 10, 17);
+}
+.table-data{
+  border: 1px solid orangered;
+  background: rgb(245, 139, 139);
+  color: rgb(0, 4, 7);
+}
