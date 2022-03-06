@@ -1,4 +1,6 @@
-
+body{
+  margin: 0;
+}
 .sec1{
   margin: 40px 265px;
   height: 90px;
@@ -98,7 +100,7 @@ p{
   width: 100%;
   overflow: hidden;
 }
-.top-area{
+.top-area-img{
   background-color: white;
   text-align: center;
   margin-top: 0px;
@@ -108,6 +110,10 @@ p{
 }
 .top-area h3 {
   margin-top: 0px;
+  text-align: center;
+}
+.top-area p{
+  text-align: center;
 }
 .grid-container {
   display: grid;
@@ -129,19 +135,10 @@ p{
   height: 125px;
   background-image: url("images/shadow2.png");
   background-repeat: none;
+  background-size: cover;
 }
 
 /* sec3 end sec4 starts */
-
-.sec4{
-
-}
-.pages{
-
-}
-.ul ul {
-
-}
 .company-page{
   border: 2px solid rgba(0,0,0,.012);
   box-shadow: 5px 5px 9px rgba(0,0,0,.125);
@@ -153,23 +150,19 @@ p{
   list-style: none;
   border-width: 100%;
   border: rgba(0,0,0,.10).5px solid;
-
-  
 }
 .company-page li a{
   text-decoration: none;
 }
-
-
-
 /* section5 starts and sec4 ends */
 .sec5{
   background-color: #f2f6fc;
 }
-/* /* section6 starts and sec5 ends */
-.sec6{
-
+.sec5-top-img{
+  background-image: url("images/shadow1.png");
+  height: 100px;
 }
+/* /* section6 starts and sec5 ends */
 .textPart{
   text-align: center;
 }
@@ -187,21 +180,56 @@ p{
 .textPart p{
   font-size: 1.2rem;
 }
+/* section7 starts and section6 ends */
 .sec7{
-  margin:  0px 265px;;
+  background-color: #f2f6fc;;
+}
+.sec7-back-img{
+  background-image: url("images/shadow1.png");
+  height: 100px;
 }
 .grid-container-last{
   display: grid;
   grid-template-columns: auto auto auto auto auto;
   gap: 10px;
   padding: 10px;
+  margin:  0px 265px;
+  border-bottom: 2px solid rgba(0,0,0,.125);
 }
 .sec7-part h5{
-
+  font-size: 1.4rem;
+  color: #c5ccd6;
+}
+.sec7-part p{
+  color: #c5ccd6;
+}
+.fa-fa-logo{
+  font-size: 24px;
+  color: #c5ccd6;
 }
 .sec7-list li{
   list-style: none;
 }
 .sec7-list li a{
   text-decoration: none;
+  color: #c5ccd6;
+}
+/* footer area */
+.grid-container-footer{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin:  0px 265px;
+  overflow: hidden;
+}
+.footer-Part1{
+  width: 50%;
+}
+.copy{
+  font-size: .875em;
+  color: #c5ccd6;
+}
+.privacy{
+  font-size: .875em;
+  text-align: end;
+  color: #c5ccd6;
 }
