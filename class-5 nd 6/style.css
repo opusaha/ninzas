@@ -50,6 +50,7 @@ navbar{
   display: flex;
   float: left;
   margin: 0px 265px;
+  overflow: hidden;
 }
 .side1{
   width: 50%;
@@ -91,11 +92,116 @@ p{
 }
 /* sec2 end and sec3 starts */
 .sec3{
-  margin: 0px 265px;
+  
   background-color: #f2f6fc;
-  border: 1px solid red;
   height: 200vh;
+  width: 100%;
+  overflow: hidden;
 }
 .top-area{
+  background-color: white;
+  text-align: center;
+  margin-top: 0px;
+  height: 100px;
+  background-image: url("images/shadow1.png");
+  background-size: cover;
+}
+.top-area h3 {
+  margin-top: 0px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto ;
+  gap: 10px;
+  padding: 10px;
+  margin: 40px 265px;
+}
+.demo h4{
+  font-size: 20px;
+  height: 30px;
+  text-align: center;
+}
+.demo img{
+  width: 100%;
+  border-radius: 10px;
+}
+.lastImage{
+  height: 125px;
+  background-image: url("images/shadow2.png");
+  background-repeat: none;
+}
 
+/* sec3 end sec4 starts */
+
+.sec4{
+
+}
+.pages{
+
+}
+.ul ul {
+
+}
+.company-page{
+  border: 2px solid rgba(0,0,0,.012);
+  box-shadow: 5px 5px 9px rgba(0,0,0,.125);
+  border-radius: 9px;
+  border-collapse: collapse;
+}
+.company-page li{
+  
+  list-style: none;
+  border-width: 100%;
+  border: rgba(0,0,0,.10).5px solid;
+
+  
+}
+.company-page li a{
+  text-decoration: none;
+}
+
+
+
+/* section5 starts and sec4 ends */
+.sec5{
+  background-color: #f2f6fc;
+}
+/* /* section6 starts and sec5 ends */
+.sec6{
+
+}
+.textPart{
+  text-align: center;
+}
+.textPart h1{
+  font-size: 5rem;
+  color: #c5ccd6;
+}
+.textPart h3{
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #363d47;
+}
+.textPart p{
+  font-size: 1.2rem;
+}
+.sec7{
+  margin:  0px 265px;;
+}
+.grid-container-last{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  gap: 10px;
+  padding: 10px;
+}
+.sec7-part h5{
+
+}
+.sec7-list li{
+  list-style: none;
+}
+.sec7-list li a{
+  text-decoration: none;
 }
