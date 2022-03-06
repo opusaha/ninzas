@@ -1,0 +1,101 @@
+
+.sec1{
+  margin: 40px 265px;
+  height: 90px;
+  /* position: fixed; */
+}
+navbar{
+  display: flex;
+
+}
+.logo{
+  color: blue;
+  font-size:1.4rem;
+  font-weight: 700;
+  width: 45%;
+}
+.logo a{
+  text-decoration: none;
+}
+.nav{
+  width: 40%;
+}
+.nav ul{
+  display: flex;
+  list-style: none;
+  color: red;
+  
+}
+.nav ul li{
+  padding: 0px 30px;
+  
+}
+.nav ul li a{
+  text-decoration: none;
+  color: gray;
+}
+.button{
+  width: 10%;
+}
+.myBtn{
+  background-color: blue;
+  color: white;
+  border : none;
+  border-radius: 6px;
+  padding: 15px 30px;
+}
+/* sec1 end -sec2 starts */
+.sec2{
+  height: 60vh;
+  display: flex;
+  float: left;
+  margin: 0px 265px;
+}
+.side1{
+  width: 50%;
+  padding-top: 2.5rem;
+}
+h2{
+  font-size: 2.5rem;
+}
+p{
+  font-size: 1.2rem;
+}
+.myBtn1{
+  background-color: blue;
+  color: white;
+  font-size: 1rem;
+  font-weight: 700;
+  border : none;
+  border-radius: .5rem;
+  padding: 15px 30px;
+  border: 3px solid blue;
+}
+.myBtn2{
+  background-color: #dae7fb;
+  color: blue;
+  font-size: 1rem;
+  font-weight: 700;
+  border : none;
+  border-radius: .5rem;
+  padding: 15px 30px;
+  border: 3px solid #dae7fb;
+  
+}
+.side2{
+  width: 50%;
+
+}
+.side2 img{
+  width: 100%;
+}
+/* sec2 end and sec3 starts */
+.sec3{
+  margin: 0px 265px;
+  background-color: #f2f6fc;
+  border: 1px solid red;
+  height: 200vh;
+}
+.top-area{
+
+}
