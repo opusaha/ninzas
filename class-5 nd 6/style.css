@@ -4,7 +4,6 @@ body{
 .sec1{
   margin: 40px 265px;
   height: 90px;
-  /* position: fixed; */
 }
 navbar{
   display: flex;
