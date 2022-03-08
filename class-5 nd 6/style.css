@@ -138,20 +138,35 @@ p{
 }
 
 /* sec3 end sec4 starts */
-.company-page{
-  border: 2px solid rgba(0,0,0,.012);
-  box-shadow: 5px 5px 9px rgba(0,0,0,.125);
-  border-radius: 9px;
+
+.mytable{
+  width: 100%;
+  height: auto;
+  border: none;
   border-collapse: collapse;
+  box-shadow: #c5ccd6 2px 2px 4px 4px;
+  border-radius: 10px;
 }
-.company-page li{
-  
-  list-style: none;
-  border-width: 100%;
-  border: rgba(0,0,0,.10).5px solid;
+.myData{
+  background-color: #fff;
+  border-radius: 5px;
+  border-bottom: 1px #c5ccd6 solid;
+  height: 30px;
+  padding: 0%;
 }
-.company-page li a{
+.myData:hover{
+  background-color: #c5ccd6;
+}
+.dataLink{
   text-decoration: none;
+  color: black;
+}
+.dataAndI{
+  display: flex;
+  justify-content: space-between;
+}
+small{
+  font-size: .875em;
 }
 /* section5 starts and sec4 ends */
 .sec5{
