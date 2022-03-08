@@ -171,6 +171,7 @@ p{
 .dataAndI{
   display: flex;
   justify-content: space-between;
+  padding: 0px 10px;
 }
 small{
   font-size: .875em;
