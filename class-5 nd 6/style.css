@@ -12,7 +12,7 @@ navbar{
 }
 .logo{
   color: blue;
-  font-size:1.4rem;
+  font: size 1.4em;rem;
   font-weight: 700;
   width: 45%;
 }
@@ -29,7 +29,7 @@ navbar{
   
 }
 .nav ul li{
-  padding: 0px 30px;
+  padding: 0px 25px;
   
 }
 .nav ul li a{
