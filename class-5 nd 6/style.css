@@ -151,7 +151,7 @@ p{
   height: auto;
   border: none;
   border-collapse: collapse;
-  box-shadow: #c5ccd6 2px 2px 4px 4px;
+  box-shadow: #c5ccd6 2px 2px 20px 5px;
   border-radius: 10px;
 }
 .myData{
