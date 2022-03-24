@@ -1,0 +1,224 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.section1{
+    margin: 0px 200px;
+}
+.sec1{
+    width: 100%;
+    float: left;
+}
+.side1{
+    width: 50%;
+    float: left
+}
+.side1 h2{
+    font-size: xx-large;
+}
+.side1 p{
+    font-size: x-large;
+    text-align: left;
+}
+.side2{
+    width: 50%;
+    float: left;
+}
+.side2 img{
+    width: 100%;
+}
+.btn1{
+    padding: 15px 30px;
+    background-color: blue;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.btn2{
+    padding: 15px 30px;
+    background-color: #81a7f7;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.section2{
+    width: 100%;
+    float: left;
+    background-color: #f2f6fc;
+}
+.sec2-img{
+    width: 100%;
+    float: left;
+}
+.sec2-img img{
+    width: 100%;
+    float: left;
+
+}
+.sec2{
+    margin: 0px 200px;
+}
+.sec2-after-margin{
+    width: 100%;
+    float: left;
+}
+.sec2-after-margin h2, .sec2-after-margin p{
+    width: 100%;
+    text-align: center;
+    float: left;
+}
+.demo-zone{
+    width: 100%;
+    float: left;
+}
+.cart{
+    width: 30%;
+    float: left;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+.cart p{
+    width: 100%;
+}
+.cart img{
+    width: 100%;
+    float: left;
+}
+.sec3{
+    margin:0px 200px;
+}
+.top-area{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.pages{
+    width: 31%;
+    float: left;
+    padding-left: 20px;
+}
+ .mytable{
+    width: 100%;
+    height: auto;
+    border: none;
+    border-collapse: collapse;
+    box-shadow: #c5ccd6 2px 2px 20px 5px;
+    border-radius: 10px;
+  }
+  .myData{
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 1px #c5ccd6 solid;
+    height: 30px;
+    padding: 0%;
+  }
+  .myData:hover{
+    background-color: #f2f6fc;
+  }
+  .dataLink{
+    text-decoration: none;
+    color: black;
+  }
+  .dataAndI{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+  }
+  small{
+    font-size: .875em;
+}
+.sec6{
+    margin: 200px;
+}
+.top-area{
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+.demo-website{
+    width: 100%;
+    float: left;
+}
+.textPart{
+    width: 31%;
+    text-align: center;
+    float: left;
+    padding-left: 20px;
+}
+  .textPart h1{
+    font-size: 5rem;
+    color: #c5ccd6;
+  }
+  .textPart h3{
+    margin-top: 0;
+    font-weight: 500;
+    line-height: 1.2;
+    color: #363d47;
+  }
+  .textPart p{
+    font-size: 1.2rem;
+  }
+  .sec7{
+    width: 100%;
+    background-color: #f2f6fc;
+    float: left;
+  }
+  .sec7-margin{
+      margin: 0px 200px;
+  }
+  .sec2-after-margin{
+      width: 100%;
+      float: left;
+  }
+  .grid-container-last{
+    width: 100%;
+    float: left;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(0,0,0,.125);
+  }
+  .sec7-part{
+      width: 18%;
+      float: left;
+      padding-left: 18px;
+  }
+  .sec7-part h5{
+    font-size: 1.4rem;
+    color: #c5ccd6;
+  }
+  .sec7-part p{
+    color: #c5ccd6;
+  }
+  .fa-fa-logo{
+    font-size: 24px;
+    color: #c5ccd6;
+  }
+  .sec7-list li{
+    list-style: none;
+  }
+  .sec7-list li a{
+    text-decoration: none;
+    color: #c5ccd6;
+  }
+  /* footer area */
+  .grid-container-footer{
+    width: 100%;
+    float: left;
+  }
+  .footer{
+      width: 50%;
+      float: left;
+  }
+  .copy{
+    font-size: .875em;
+    color: #c5ccd6;
+  }
+  .privacy{
+    font-size: .875em;
+    text-align: end;
+    color: #c5ccd6;
+  }
