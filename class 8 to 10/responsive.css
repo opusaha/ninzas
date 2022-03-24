@@ -324,4 +324,83 @@
         float: left;
     }
 }
-
+@media (min-width: 769px) and (max-width: 1024px) {
+    body{
+        margin: 0px;
+    }
+    .section1{
+        margin: 100px;
+    }
+    .side1{
+        width: 50%;
+        float: left;
+        margin-top: none;
+    }
+    .side1 h2{
+        font-size: x-large;
+    }
+    .side1 p{
+        font-size: large;
+    }
+    .side2{
+        width: 50%;
+        float: left;
+    }
+    .side2 img{
+        width: 100%;
+    }
+    .btn1{
+        padding: 7px 14px;
+        background-color: blue;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        font-size: large;
+    }
+    .btn2{
+        padding: 7px 14px;
+        background-color: #81a7f7;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        font-weight: 600;
+        font-size: large;
+    }
+    .sec2{
+        margin: 100px;
+    }
+    .cart{
+        width: 48%;
+        float: left;
+        padding-top: 5px;
+        padding-left: 15px;
+    }
+    .sec3{
+        margin:100px;
+    }
+    .pages{
+        width: 31%;
+        float: left;
+        padding-left: 15px;
+    }
+    .sec6{
+        margin: 60px;
+    }
+    .textPart{
+        width: 31%;
+        text-align: center;
+        float: left;
+        padding-left: 15px;
+    }
+    .sec7-margin{
+        margin: 60px;
+    }
+    .sec7-part{
+        width: 20%;
+        float: left;
+        padding-left: 0px;
+        text-align: center;
+    }
+    
+}
