@@ -1,0 +1,213 @@
+body{
+    font-family: 'Courier New', ;
+}
+.nav-section{
+    background-color: transparent;
+    /* position: fixed; */
+}
+.logo{
+    color: #00c6d7;
+    font-weight: 600;
+    font-size: 24px;
+}
+.nav-link{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.navbar-nav > li{
+    margin-left: 30px;
+    padding-left: 30px;
+}
+.nav-link:focus, .nav-link:hover{
+    color: #00c6d7;
+}
+.carousel-item{
+    height: 100vh;
+}
+.carousel-caption {
+    top: 35%;
+}
+.carousel-caption h2{
+    padding-bottom: 20px;
+}
+.btn-div{
+    border-top: #ccc 1px solid;
+    padding-top: 20px;
+}
+.btn-sec1{
+    background: transparent;
+    color: #fff;
+    font-weight: 700;
+    border-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+.btn-sec1:focus{
+    background: #00c6d7;
+}
+.sec2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.service{
+    margin-bottom: 100px;
+}
+.sec2-starts{
+    margin-bottom: 100px;
+    border-bottom: 1px solid #ccc;
+}
+.sec2-h1{
+    color: #00c6d7;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sec2-h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.work-zone  h4{
+    text-transform: uppercase;
+}
+.work-zone{
+    text-align: center;
+}
+.sec3{
+    background-color: #3b3b3b;
+    color: #fff;
+    padding-bottom: 30px;
+}
+.sec3-img img{
+    width: 100%;
+}
+.sec3 h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.sec3 h4{
+    padding-bottom: 15px;
+}
+.sec3-about{
+    border-bottom: #ccc 1px solid;
+    padding-bottom: 20px;
+}
+.sec3-about a{
+    text-decoration: none;
+    color: #00c6d7;
+}
+.sec3-about a:focus{
+    color: #fff;
+}
+.sec3 p{
+    padding-top: 20px;
+}
+.sec-4{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.portfolio-part li{
+    text-align: center;
+    list-style: none;
+}
+.portfolio-part li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: gray;
+    font-weight: 700;
+}
+.sec-6{
+    padding-bottom: 100px;
+}
+.sec6-icons{
+    text-align: center;
+}
+.sec6-icons i{
+    text-align: center;
+    padding: 30px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    box-shadow: #ccc 2px 2px 2px 2px;
+}
+.card-body{
+    text-align: center;
+    padding-bottom: 50px;
+}
+.list-item{
+    text-align: center;
+    list-style: none;
+}
+.cards{
+    box-shadow: 2px 5px 5px 5px gray;
+}
+.btn1{
+    background: #00c6d7;
+    color: #fff;
+    font-weight: 700;
+    border-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+}
+.btn1:focus:focus{
+    background: #3b3b3b;
+}
+.btn2{
+    background: #ffa400;
+    color: #fff;
+    font-weight: 700;
+    border-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+}
+.btn2:focus{
+    background: #3b3b3b;
+}
+.btn3{
+    background: #009988;
+    color: #fff;
+    font-weight: 700;
+    border-color: #fff;
+    padding: 15px 30px;
+    border-radius: 5px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    
+}
+.btn3:focus{
+    background: #3b3b3b;
+}
+.sec7{
+    background-image: url(../images/contact-bg.jpg);
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}.sec7-h2{
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+}
+.sec7 h4{
+    text-transform: uppercase;
+}
+.input{
+    margin-bottom: 20px;
+}
+.copy p{
+    text-align: center;
+}
+.copyright-icon i{
+    margin: 10px 20px;
+    padding-left: 15px 30px;
+    box-shadow: 5px 5px 10px  gray;
+    background-color: transparent;
+    text-align: center;
+}
