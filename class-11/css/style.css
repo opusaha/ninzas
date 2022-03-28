@@ -20,7 +20,7 @@ body{
     color: #00c6d7;
 }
 .carousel-item{
-    height: 100vh;
+    height: inherit;
 }
 .carousel-caption {
     top: 35%;
@@ -39,6 +39,9 @@ body{
     padding: 15px 30px;
     border-radius: 5px;
     margin-left: 20px;
+}
+.btn-sec1:hover{
+    border-color: #00c6d7;
 }
 .btn-sec1:focus{
     background: #00c6d7;
@@ -185,12 +188,15 @@ body{
     border-color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
-    margin-left: 20px;
-    text-transform: uppercase;
-    
+    margin-left: 0px;
+    text-transform: uppercase; 
+}
+.btn1:hover{
+    color: cyan;
 }
 .btn1:focus:focus{
     background: #3b3b3b;
+    border-color: #00c6d7;
 }
 .btn2{
     background: #ffa400;
@@ -199,12 +205,15 @@ body{
     border-color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
-    margin-left: 20px;
-    text-transform: uppercase;
-    
+    margin-left: 0px;
+    text-transform: uppercase;  
+}
+.btn2:hover{
+    color: cyan;
 }
 .btn2:focus{
     background: #3b3b3b;
+    border-color: #00c6d7;
 }
 .btn3{
     background: #009988;
@@ -213,12 +222,15 @@ body{
     border-color: #fff;
     padding: 15px 30px;
     border-radius: 5px;
-    margin-left: 20px;
-    text-transform: uppercase;
-    
+    margin-left: 0px;
+    text-transform: uppercase;   
+}
+.btn3:hover{
+    color: cyan;
 }
 .btn3:focus{
     background: #3b3b3b;
+    border-color: #00c6d7;
 }
 .sec7{
     background-image: url(../images/contact-bg.jpg);
@@ -237,16 +249,20 @@ body{
 .input{
     margin-bottom: 20px;
 }
+.copy{
+    margin-bottom: 20px;
+}
 .copy p{
     text-align: center;
 }
 .copyright-icon{
     box-shadow: #ccc 2px 2px 2px 2px;
-    padding: 10px 20px;
-    background-color: transparent;
+    padding: 5px 10px;
     text-align: center;
     border-radius: 5px;
     font-size: 30px;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 hr{
     width: 25%;
