@@ -16,11 +16,12 @@ body{
     margin-left: 30px;
     padding-left: 30px;
 }
-.nav-link:focus, .nav-link:hover{
-    color: #00c6d7;
+.nav-link:hover{
+    color: #62f2ff;
 }
 .carousel-item{
-    height: inherit;
+    min-height: fit-content;
+    max-height: fit-content;
 }
 .carousel-caption {
     top: 35%;
