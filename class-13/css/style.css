@@ -6,6 +6,10 @@
     font-family: 'Poppins', sans-serif;
     font-weight: 500;
 }
+.nav-link:focus{
+    color: #522771;
+    border-bottom: 4px solid #FF5E4E;
+}
 .message h1{
     padding: 50px 0px;
 }
@@ -23,6 +27,7 @@ text-align: justify;
     background-image: url(../images/footer.png);
     padding: 50px 0px;
     position: relative;
+    color: #fff;
 }
 .footer-sec::before {
     position: absolute;
@@ -31,7 +36,7 @@ text-align: justify;
     height: 100%;
     top: 0;
     left: 0;
-    background: transparent linear-gradient(181deg, #1E75C5D1 0%, #00346B 100%) 0% 0% no-repeat padding-box;
+    background: transparent linear-gradient(180deg, #1E75C5D1 100%, #00346B 100%) 0% 0% no-repeat padding-box;
 }
 .footer-top{
     text-align: center;
@@ -54,13 +59,25 @@ a{
     text-decoration: none;
     color: #fff;
 }
-.about{
-    color: #fff;
-}
 .btn{
     color: white;
     background-color: lawngreen;
     border: none;
     border-radius: 5px;
     padding: 5px 10px;
+}
+.card-body{
+    font-size: 1.5em;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.icon{
+    padding: 5px 10px;
+    font-size: 20px;
+}
+.last{
+    text-align: center;
 }
