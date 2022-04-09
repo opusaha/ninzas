@@ -1,0 +1,81 @@
+@media only screen and (max-width: 320px) {
+    .carousel-item p{
+        font-size: 9px;
+    }
+    .carousel-item h2{
+        font-size: 14px;
+    }
+    .carousel-caption h2{
+        padding-bottom: 0px;
+    }
+    .btn-div{
+        padding-top: 0px;
+    }
+    .btn-sec1{
+    background: transparent;
+    color: #fff;
+    font-weight: 400;
+    border-color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 10px;
+    }
+    .carousel-caption {
+        top: 25%;
+    }
+}
+@media (min-width: 321px) and (max-width: 375px) {
+    .carousel-item p{
+        font-size: 11px;
+    }
+    .carousel-item h2{
+        font-size: 16px;
+    }
+    .carousel-caption h2{
+        padding-bottom: 0px;
+    }
+    .btn-div{
+        padding-top: 0px;
+    }
+    .btn-sec1{
+    background: transparent;
+    color: #fff;
+    font-weight: 400;
+    border-color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 15px;
+    }
+    .carousel-caption {
+        top: 25%;
+    }
+}
+@media (min-width: 376px) and (max-width: 425px) {
+    .carousel-item p{
+        font-size: 12px;
+    }
+    .carousel-item h2{
+        font-size: 16px;
+    }
+    .carousel-caption h2{
+        padding-bottom: 0px;
+    }
+    .btn-div{
+        padding-top: 0px;
+    }
+    .btn-sec1{
+    background: transparent;
+    color: #fff;
+    font-weight: 400;
+    border-color: #fff;
+    padding: 5px 8px;
+    border-radius: 5px;
+    margin-left: 20px;
+    font-size: 17px;
+    }
+    .carousel-caption {
+        top: 25%;
+    }
+}
