@@ -21,7 +21,7 @@ $sql = "INSERT INTO post (headings, content)
 VALUES ('$headings', '$content')";
 
 if ($conn->query($sql) === TRUE) {
-  echo "New record created successfully";
+  header('Location: http://localhost/practice/datashow.php');
 } else {
     header('Location: http://localhost/practice/home.php');
 }
