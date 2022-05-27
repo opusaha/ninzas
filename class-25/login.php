@@ -4,9 +4,7 @@ if (isset($_SESSION["login"]) && $_SESSION["login"] == 1) {
     header('Location: http://localhost/practice/home.php');
 }
 ?>
-<?php
-include 'includes/header.inc.php'
-?>
+<?php include 'includes/header.inc.php' ?>
     <form style="width: 400px;" class="m-auto" action="logincheck.php" method="post">
         <div class="mb-3">
             <label for="exampleInputEmail1" class="form-label">Email address</label>
@@ -22,6 +20,4 @@ include 'includes/header.inc.php'
     <div style="text-align: center;">
         <h1>If you are new then <a href="register.php">Register</a> first</h1>
     </div>
-    <?php
-include 'includes/footer.inc.php.inc.php'
-?>
+<?php include 'includes/footer.inc.php' ?>

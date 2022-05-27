@@ -5,18 +5,9 @@ $content='';
 $headings=$_GET['headings'];
 $content=$_GET['content'];
 
-$servername = "localhost";
-$username = "root";
-$pin = "";
-$dbname = "test";
-
-// Create connection
-$conn = new mysqli($servername, $username, $pin, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
+?>
+<?php include 'includes/createconnection.inc.php'?>
+<?php
 $sql = "INSERT INTO post (headings, content)
 VALUES ('$headings', '$content')";
 

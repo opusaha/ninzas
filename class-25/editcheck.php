@@ -1,23 +1,16 @@
 <?php
 $headings='';
 $content='';
+$id ='';
+
 
 $headings=$_GET['headings'];
 $content=$_GET['content'];
+$id=$_GET['id'];
 
-$servername = "localhost";
-$username = "root";
-$pin = "";
-$dbname = "test";
+include 'includes/createconnection.inc.php';
 
-// Create connection
-$conn = new mysqli($servername, $username, $pin, $dbname);
-// Check connection
-if ($conn->connect_error) {
-  die("Connection failed: " . $conn->connect_error);
-}
-
-$sql = "UPDATE post SET headings='$headings', content='$content' WHERE id=16";
+$sql = "UPDATE post SET headings='$headings', content='$content' WHERE id='$id'";
 
 if ($conn->query($sql) === TRUE) {
   header('Location: http://localhost/practice/datashow.php');
